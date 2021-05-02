@@ -1,0 +1,70 @@
+.login{
+    text-align: center;
+    width: 70%;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+#izq{
+    width: 45%;
+    float: left;
+}
+
+#der{
+    width: 45%;
+    float: right;
+}
+
+.boton{
+    width: 100%;
+}
+
+.con_usu{
+    position: relative;
+    margin-bottom: 1rem;
+    background-color: teal;
+    border-bottom: 2px solid rgb(255, 239, 20);
+}
+
+.formu{
+    text-align: center;
+    padding: 5rem;
+
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.con_usu{
+    background-color: aqua;
+}
+
+.con_usu input{
+    padding: 0.5px;
+    border: none;
+    background: rgb(255, 248, 211);
+    outline: none;
+}
+
+.con_usu label{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.con_usu input:focus ~ label,
+.con_usu input:valid ~ label{
+    top: -8px;
+}
+a{
+    text-decoration-line: none;
+    line-height: 0rem;
+}
+a:hover{
+    background-color:rgba(255, 255, 255, 0);
+}
