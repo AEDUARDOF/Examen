@@ -8,28 +8,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ben&Jerry's</title>
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="media/benicon">
+        <link rel="stylesheet" href="css/IniciarS.css">
+        <link rel="stylesheet" href="css/registroadmin.css">
 
     </head>
 
     <body>
     <main>
-        <div class="image">
-            <img src="" alt="" title="">
-        </div>
-        <h1>Registro Administrador</h1>
-        <div class="login">
-            <section>
-                <ul>
-                    <li><input type="text" required></li>
-                    <label>Numero de empleado:</label>
-                    <li><input type="password"></li>
-                    <label>Codigo de acceso:</label>
-                    <button name="Iniciar"><a href="./registro.html">Registrarme</a></button>
-                </ul>
-            </section>
+        <div class="elementos">
+            <div class="regresar">
+                <a href="./index.html">
+                    <img src="./media/regresar.jpg" alt="regresar" title="regresar" height="90%">
+                </a>
+            </div>
+            <div class="image">
+                <img src="./media/Ben&Jerrys_Logo.jpg" alt="Ben & Jerry´s Logo" title="Ben & Jerry´s Logo" height="70%">
             </div>
         </div>
+        <div class="login">
+                <div class="formu">
+                    <h3>Registrarme como administrador</h3>
+                    <br>
+                    <form method="post">
+                        <div class="con_usu">
+                            <input type="text" required>
+                            <label>No. Empleado:</label>
+                        </div>
+                        <br>
+                        <div class="con_usu">
+                            <input type="password" required>
+                            <label>Código de acceso:</label>
+                        </div>
+                        <br>
+                        <button name="Iniciar"><a href="./registro.html">Siguiente</a></button>
+                    </form>
+                </div>
+            </div>
     </main>
     </body>
 

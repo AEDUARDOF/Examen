@@ -16,37 +16,56 @@
     <body>
     <main>
         <div class="elementos">
+            <div class="regresar">
+                <a href="./index.html">
+                    <img src="./media/regresar.jpg" alt="regresar" title="regresar" height="90%">
+                </a>
+            </div>
             <div class="image">
-                <img src="./media/Ben&Jerrys_Logo.jpg" alt="Ben & Jerry´s Logo" title="Ben & Jerry´s Logo" width="20%">
+                <img src="./media/Ben&Jerrys_Logo.jpg" alt="Ben & Jerry´s Logo" title="Ben & Jerry´s Logo" height="70%">
             </div>
         </div>
         <div class="login">
             <div class="formu">
                 <form action="post">
-
                     <div class="columnas">
-                        <div class="con-usu" id="izq">
-                            <input type="text" required>
-                            <label>Usuario:</label>
-                            <input type="text">
-                            <label>Nombre:</label>
-                            <input type="text" required>
-                            <label>Apellido Paterno:</label>
-                            <input type="text" required>
-                            <label>Apellido materno:</label>
+                        <div id="izq">
+                            <div class="con_usu">
+                                <input type="text" required>
+                                <label>UIsuario:</label>
+                            </div>
+                            <div class="con_usu">
+                                <input type="text" required>
+                                <label>Nombre:</label>
+                            </div>
+                            <div class="con_usu">
+                                <input type="text" required>
+                                <label>Apellido Paterno:</label>
+                            </div>
+                            <div class="con_usu">
+                                <input type="text" required>
+                                <label>Apellido Materno</label>
+                            </div>
                         </div>
-                        <div class="con-usu" id="der">
-                            <input type="date" required>
-                            <br>
-                            <label>Fecha de Nacimiento:</label>
-                            <input type="text"required>
-                            <label>Telefono:</label>
-                            <input type="text" required></li>
-                            <label>Celular:</label>
+                        <div id="der">
+                            <div class="con_date">
+                                <input type="date" required>
+                                <br>
+                                <label>Fecha de Nacimiento:</label>
+                            </div>
+                            <div class="con_usu">
+                                <input type="tex" required>
+                                <label>Telefono:</label>
+                            </div>
+                            <div class="con_usu">
+                                <input type="text" required>
+                                <label>Celular:</label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="boton">
-                        <button name="Siguiente">Siguiente</button>
+                        <br>
+                        <div class="boton">
+                            <button name="Registrarme"><a href="./principal.html">Registrarme</a></button>
+                        </div>
                     </div>
                 </form>
             </div>

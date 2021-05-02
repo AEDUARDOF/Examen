@@ -25,6 +25,7 @@
 
 .con_usu label{
     position: absolute;
+    color: rgb(180, 114, 39);
     top: 50%;
     left: 30px;
     transform: translateY(-50%);
@@ -35,7 +36,7 @@
 
 .con_usu input:focus ~ label,
 .con_usu input:valid ~ label{
-    top: -8px;
+    color: rgb(255, 248, 211);
 }
 a{
     text-decoration-line: none;
@@ -43,4 +44,20 @@ a{
 }
 a:hover{
     background-color:rgba(255, 255, 255, 0);
+}
+
+.elementos{
+    overflow: hidden;
+}
+
+.regresar{
+    width: 15%;
+    float: left;
+}
+
+.image{
+    width: 75%;
+    padding-right: 18rem;
+    height: 5rem;
+    float: right;
 }
