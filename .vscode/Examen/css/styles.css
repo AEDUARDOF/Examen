@@ -39,22 +39,6 @@ ul{
     list-style: none;
 }
 
-button{
-    background:rgb(53, 31, 5);
-    color:#fff;
-    margin-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
-    border: 4px;
-
-
-}
-
-button:hover{
-    background-color:rgb(163, 92, 6);
-}
-
 .botones{
     padding: 4rem;
 }
